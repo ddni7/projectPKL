@@ -36,7 +36,7 @@
                             <input type="password" name="password" class="form-control" id="password" required>
                         </div>
                         <div class="div mb-3">
-                            <a href="{{ route('register') }}">Register Account</a>
+                            <p>Don't have account? <a href="{{ route('register') }}">Register Account</a></p>
                         </div>
                         <div class="mb-3">
                             <div class="d-grid">
