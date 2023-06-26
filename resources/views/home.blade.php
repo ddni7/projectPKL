@@ -15,7 +15,7 @@
     <br>
     <div class="div text-center">
         <div class="container">
-            <h1> Welcome, {{ Auth::user()->name }}</h1>
+            <h1 style="text-transform:capitalize;"> Welcome, {{ Auth::user()->name }}</h1>
             <img src="{{ asset('abc') }}/assets/aslina.png" alt="">
         </div>
     </div>
